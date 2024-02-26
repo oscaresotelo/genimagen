@@ -25,9 +25,8 @@ from datetime import datetime
 
 def text2image(prompt: str):
     # API_URL = "https://api-inference.huggingface.co/models/kr-manish/text-to-image-sdxl-lora-dreemBooth-rashmika"
+    API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
     # API_URL = "https://api-inference.huggingface.co/models/kr-manish/text-to-image-sdxl-lora-dreemBooth-rashmika_3000_512x512"
-    API_URL = "https://api-inference.huggingface.co/models/stablediffusionapi/realistic-stock-photo-v2"
-
     headers = {"Authorization": "Bearer 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"}
     payload = {"inputs": prompt}
     response = requests.post(API_URL, headers=headers, json=payload)

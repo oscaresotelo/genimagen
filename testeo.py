@@ -19,4 +19,4 @@ def text2image(prompt: str):
     filename ="devilusewww.jpg"
     image.save(filename)
     return filename
-text2image("gacha life , con vestido rosa, sentada tomando cafe")
+text2image("ultra realista hombre lobo vestido de traje,  caminando por un camino soliltario de noche bajo la lluvia")
