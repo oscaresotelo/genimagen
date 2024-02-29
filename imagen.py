@@ -111,7 +111,7 @@ api_options = {
     "Text To Image SDXL Lora DreemBooth Rashmika": "https://api-inference.huggingface.co/models/kr-manish/text-to-image-sdxl-lora-dreemBooth-rashmika",
     "Stable Diffusion XL Base": "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0",
     "Anime": "https://api-inference.huggingface.co/models/cagliostrolab/animagine-xl-3.0",
-    "3D": "https://api-inference.huggingface.co/models/goofyai/3d_render_style_xl"
+    "Realista": "https://api-inference.huggingface.co/models/stablediffusionapi/realistic-stock-photo-v2"
 }
 selected_api = st.selectbox("Seleccione el modelo", list(api_options.keys()))
 
